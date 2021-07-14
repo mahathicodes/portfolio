@@ -11,7 +11,8 @@
 }
 
 .footer{
-    background-color: floralwhite;
+    background-color: #2a4494;
+    color: white;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -43,3 +44,16 @@ body{
     width: 50%;
     height: 50%;
 }
+
+.btn-primary{
+    background-color: #2a4494;
+}
+
+.x-small-img{
+    width: 35%;
+    height: 35%;
+}
+
+/* .img-padding{
+    padding: 10px 10px 10px 10px;
+} */

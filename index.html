@@ -26,10 +26,10 @@
             <a class="navbar-brand mr-auto" href="#">Mahathi Gandhamaneni</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fas fa-home fa-lg"></span> Home</a></li>
+                    <!-- <li class="nav-item active"><a class="nav-link" href="#"><span class="fas fa-home fa-lg"></span> Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fas fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-list fa-lg"></span> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-list fa-lg"></span> Menu</a></li> -->
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="#contact"><span class="fas fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Mahathi's Portfolio Website</h1>
+                    <h1>Mahathi's Portfolio</h1>
                     <p>Hi! I'm Mahathi and I love art and design. Scroll to see some of my work!</p>
                 </div>
                 <div class="col-12 col-sm">
@@ -71,21 +71,99 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Meet our Culinary Specialists</h3>
+            <div class="col-12 col-sm-4 order-sm-last">
+                <h3>Magazine Design</h3>
+                <p>I am involved on the productions teams at a few magazines at the University of Toronto. 
+                    Here are a couple of the spreads I designed for <a href="https://issuu.com/heyteachmagazine/docs/multiple_literacies_in_education_-_hey__teach__win">Hey, Teach Magazine.</a>
+                    I am currently the Design Editor for <a href="https://thestrand.ca/">The Strand</a> - keep an eye on our <a href="https://issuu.com/thestrandpaper">Isuu</a> to see my designs!
+                </p>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                <p class="img-padding">
+                    <img class="x-small-img float-left" src="./images/learning-styles/learning styles_pages-to-jpg-0001.jpg">
+                    <img class="x-small-img float-left" src="./images/learning-styles/learning styles_pages-to-jpg-0002.jpg">
+                </p>
+                <p class="img-padding">
+                    <img class="x-small-img" src="./images/screen-fatigue-phenomenon/screen fatigue phenomenon_pages-to-jpg-0002.jpg">
+                    <img class="x-small-img float-left" src="./images/screen-fatigue-phenomenon/screen fatigue phenomenon_pages-to-jpg-0001.jpg">
+                </p>
             </div>
         </div>
     </div>
 
+    <!-- Contact Section-->
+    <section id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading mb-4 align-items-center jumbotron">Contact Me</h2>
+            
+            <!-- Contact Section Form-->
+            <div class="col-12 text-secondary">
+            <form action="https://formsubmit.co/mahu2082@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://mahathicodes.github.io/website/">
+                <div class="form-group row">
+                    <label for="name" class="col-md-2 col-form-label">Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="name" name="name"
+                        placeholder="Name">
+                    </div>
+                </div>
+                <!-- <div class="form-group row">
+                    <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                    <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areacode" name="areacode"
+                        placeholder="Area Code">
+                    </div>
+                    <div class="col-7 col-md-7">
+                        <input type="tel" class="form-control" id="telnum" name="telnum"
+                        placeholder="Tel. Number">
+                    </div>
+                </div> -->
+                <div class="form-group row">
+                    <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="emailid" name="emailid"
+                        placeholder="Email">
+                    </div>
+                </div>
+                <!-- <div class="form-group row">
+                    <div class="col-md-6 offset-md-2">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input"
+                            name="approve" id="approve" value="">
+                            <label class="form-check-label" for="approve"><strong>May we contact you?</strong></label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <select class="form-control">
+                            <option>Tel. </option>
+                            <option>Email </option>
+                        </select>
+                    </div>
+                </div> -->
+                <div class="form-group row">
+                    <label for="message" class="col-md-2 col-form-label">Message</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="message" name="message"
+                        rows="12"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset md-4 col-md-8 mx-auto d-block">
+                        <button type="submit" class="btn btn-primary">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <div class="row">             
-                <div class="col-4 offset-1 col-sm-2">
+                <!-- <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
@@ -104,8 +182,8 @@
 		              <i class="fas fa-fax fa-lg"></i>: +852 8765 4321<br>
 		              <i class="fas fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center">
+                </div> -->
+                <!-- <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
                         <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fas fa-google fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fas fa-facebook fa-lg"></i></a>
@@ -114,11 +192,11 @@
                         <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fas fa-youtube fa-lg"></i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fas fa-envelope-o fa-lg"></i></a>
                     </div>
-                </div>
+                </div> -->
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2021 Mahathi Gandhamaneni</p>
                 </div>
            </div>
         </div>
